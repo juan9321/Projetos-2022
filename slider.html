@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-wirth, initial-scale=.0">
+        <title>Slider com HTML e CSS</title>
+        <link rel="stylesheet" href="slider.css">
+    </head>
+    <body>
+
+        <div class="slider">
+            <div class="slides">
+                <!--Radio button-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Fim radio button-->
+
+                <!--Imagens do slide-->
+                <div class="slide first">
+                    <img src="img/slider1.jpg" alt="Imagem 1" />
+                </div>
+                <div class="slide ">
+                    <img src="img/slider2.jpg" alt="Imagem 2" />
+                </div>
+                <div class="slide ">
+                    <img src="img/slider3.jpg" alt="Imagem 3" />
+                </div>
+                <div class="slide ">
+                    <img src="img/slider4.jpg" alt="Imagem 4" />
+                </div>
+                <!--Final das imagens do slide-->
+
+                <!--Bolas de Navegacao-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+        </div>
+                <!-- Fim das bolas de Navegacao-->
+
+
+        <script src="slider.js"></script>
+    </body>
+</html>
